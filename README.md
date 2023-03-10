@@ -1,6 +1,35 @@
 # LightBnB
 A simple multi-page Airbnb clone that uses a server-side JavaScript to dsplay the information from queries to web pages via SQL queries.
 
+## Database Setup
+- run 'psql' in your terminal  
+- run 'CREATE DATABASE lightbnb' in your terminal to create the database
+- run '\c lightbnb' to access the database
+- run '\i migrations/01_schema.sql' in your terminal
+- run '\i seeds/01_seeds.sql' and 'i/seeds/02_seeds.sql' 
+
+## Getting Started
+- run 'npm i" in your terminal to install all dependencies listed below
+- run "npm run local" in your terminal to start the serer and begin running the application at http://localhost:3000/
+
+## Dependencies
+- bcryptjs
+- body-parser
+- chalk
+- connect-flash
+- cookie-session
+- dotenv
+- ejs
+- express
+- morgan
+- node-sass-middleware
+- pg
+- pg-native
+- sass
+- sequelize
+
+## ERD
+!["Screenshot of ERD](https://github.com/Megwilken/LightBnB/blob/main/erd.png)
 
 ## Project Structure
 
@@ -43,3 +72,5 @@ A simple multi-page Airbnb clone that uses a server-side JavaScript to dsplay th
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+
+## Final Product
