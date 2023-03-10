@@ -5,8 +5,8 @@ A simple multi-page Airbnb clone that uses a server-side JavaScript to dsplay th
 - run 'psql' in your terminal  
 - run 'CREATE DATABASE lightbnb' in your terminal to create the database
 - run '\c lightbnb' to access the database
-- run '\i migrations/01_schema.sql' in your terminal
-- run '\i seeds/01_seeds.sql' and 'i/seeds/02_seeds.sql' 
+- run '\i migrations/01_schema.sql' in your terminal to add the schema to your database
+- run '\i seeds/01_seeds.sql' and 'i/seeds/02_seeds.sql' to add the sample data to your database
 
 ## Getting Started
 - run 'npm i" in your terminal to install all dependencies listed below
@@ -74,3 +74,13 @@ A simple multi-page Airbnb clone that uses a server-side JavaScript to dsplay th
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
 
 ## Final Product
+
+### Homepage
+![screenshot of homepage](https://github.com/Megwilken/LightBnB/blob/main/LightBnB_WebApp-master/public/images/homepage.png)
+
+### Search Page
+![screenshot of search-page](https://github.com/Megwilken/LightBnB/blob/main/LightBnB_WebApp-master/public/images/search-page.png)
+
+### Search Results Page
+![screenshot of results page](https://github.com/Megwilken/LightBnB/blob/main/LightBnB_WebApp-master/public/images/results-page.png)
+
